@@ -1,7 +1,7 @@
 # Darya Yermakova
 ## Contact info
 - **skype**: darshkaye
-- **linkedin**: [https://www.linkedin.com/in/darya-yermakova-19504793/]https://www.linkedin.com/in/darya-yermakova-19504793/
+- **linkedin**: [https://www.linkedin.com/in/darya-yermakova-19504793/](https://www.linkedin.com/in/darya-yermakova-19504793/)
 - **email**: [yermakova.dasha@gmail.com](mailto:yermakova.dasha@gmail.com)
 
 ## Summary
@@ -42,7 +42,7 @@ function partsSums($ls) {
 
 ## Experience
 I worked with following projects:
-- Sales-enablement platform (team work. Symfony, tests, Gitlab CI/CD, automated tests)
+* Sales-enablement platform (team work. Symfony, tests, Gitlab CI/CD, automated tests)
 - E-commerce platform ( Yii, Bootstrap, Angular, CircleCI)
 - Wordpress simple web-sites
 - REST Api for managing of termostats
