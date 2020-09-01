@@ -42,7 +42,7 @@ function partsSums($ls) {
 
 ## Experience
 I worked with following projects:
-* Sales-enablement platform (team work. Symfony, tests, Gitlab CI/CD, automated tests)
+- Sales-enablement platform (team work. Symfony, tests, Gitlab CI/CD, automated tests)
 - E-commerce platform ( Yii, Bootstrap, Angular, CircleCI)
 - Wordpress simple web-sites
 - REST Api for managing of termostats
