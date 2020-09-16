@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
+    <title>CV Darya Yermakova</title>
+  </head>
+  <body>
+    <header>
+      <div class="inline avatar">
+        <img src="images/cv-avatar.png" alt="Darya Yermakova">
+      </div>
+      <div class="inline info">  
+        <h1>Darya Yermakova</h1>
+        <section>
+          <h2>Contact Info</h2>
+          <ul>
+            <li>
+                <strong>skype</strong>: darshkaye
+            </li>
+            <li>
+                <strong>linkedin</strong>:
+                <a href="https://www.linkedin.com/in/darya-yermakova-19504793/">https://www.linkedin.com/in/darya-yermakova-19504793/</a>
+            </li>
+            <li>
+                <strong>email</strong>:
+                <a href="mailto:yermakova.dasha@gmail.com">yermakova.dasha@gmail.com</a>
+            </li>
+          </ul>
+        </section>
+      </div>
+    </header>
+
+    <main>
+      
+      <section>
+        <h2>Summary</h2>
+        <p>I'm PHP developer with middle unstructed experience in frontend (VanillaJs, jQuery, Angular, ReactJs). I would like to structure my knowledge in this sphere and to reach fullstack postion in my working experience.</p>
+      </section>
+      <section>
+        <h2>Skills</h2>
+            <table>
+              <thead>
+                <tr>
+                  <th>Field</th>
+                  <th>Technologies</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Languages</td>
+                  <td>PHP, Html, JS, CSS</td>
+                </tr>
+                <tr>
+                  <td>Databases</td>
+                  <td>MySql, MongoDB</td>
+                </tr>
+                <tr>
+                  <td>Frameworks</td>
+                  <td>Symfony, Yii, Laravel</td>
+                </tr>
+                <tr>
+                  <td>Frontend technologies</td>
+                  <td>vueJs, ReactJs, Angular</td>
+                </tr>
+                <tr>
+                  <td>Development Process Support Tools</td>
+                  <td>Git, Docker, Vagrant</td>
+                </tr>
+                <tr>
+                  <td>Methodologies</td>
+                  <td>Scrum, Kanban</td>
+                </tr>
+                <tr>
+                  <td>IDE</td>
+                  <td>PhpStorm, Visual Code Studio</td>
+                </tr>
+              </tbody>
+            </table>
+      </section>
+      <section>
+        <h2>Code examples</h2>
+        <pre id="code" class="prettyprint lang-php">
+          function partsSums($ls) {
+            $count = count($ls);
+            $i = 0;
+            $sum = array_sum($ls);
+            $result = [$sum];
+            
+            while ($count > 0) {
+              $sum -= $ls[$i];
+              $result[] = $sum;
+              $count--;
+              $i++;
+            }
+            if ($sum !== 0) {
+              $result[] = 0;
+            }
+            return $result;
+          }
+        </pre>
+      </section>
+      <section>
+        <h2>Experience</h2>
+        <p>
+          I worked with following projects:
+          <ul>
+            <li>Sales-enablement platform (team work. Symfony, tests, Gitlab CI/CD, automated tests)</li>
+            <li>E-commerce platform ( Yii, Bootstrap, Angular, CircleCI)</li>
+            <li>Wordpress simple web-sites</li>
+            <li>REST Api for managing of termostats</li>
+            <li>Supporting of Drupal sites</li>
+          </ul>
+        </p>
+      </section>
+      <section>
+        <h2>Education</h2>
+          <p>
+            <strong>BNTU (2007–2012)</strong><br>
+            Faculty of informational technologies and robotics,
+Engineer-programmer
+          </p>
+      </section>
+      <section>
+        <h2>English</h2>
+        <p>Intermediate</p>
+      </section>
+    </main>
+  </body>
+</html>
